@@ -9,7 +9,54 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -2; /* Ensures the video is behind other content */
+  z-index: -1; /* Ensures the video is behind other content */
+}
+
+#button-3{
+  background-color: #61dafb;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: fixed;
+  bottom: 100px;
+  justify-content: center;
+  color: #34495e;
+  overflow: hidden;
+  text-decoration: none;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#button-3:before, #button-3:after{
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: -50%;
+  background-color: royalblue;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#button-3:after{
+  left: 100%;
+}
+
+#button-3:hover{
+  color: #61dafb;
+}
+
+#button-3:hover:before{
+  left: 0;
+}
+
+#button-3:hover:after{
+  left: 50%;
 }
 
 
