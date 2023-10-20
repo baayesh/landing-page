@@ -5,9 +5,13 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <video autoPlay muted>
-        <source src={Video} type="video/mp4"/>
+      <video className="Vid" autoPlay muted loop>
+        <source src={Video} type="video/mp4" />
       </video>
+      <div class="wrap">
+        <h1>Squishy-ish Button</h1>
+        <input class="btn" type="button" />
+      </div>
     </div>
   );
 }
