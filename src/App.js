@@ -10,9 +10,11 @@ function App() {
       <video className="Vid" autoPlay muted loop>
         <source src={Video} type="video/mp4" />
       </video>
+      <div className="tagwrap">
+        <h1 className="tag">Break the Silence - End the Violence</h1>
+      </div>
       <Link to="/Congratz" class="button" id="button-3">
-        {" "}
-        Click Here
+        LAUNCH SOCIAL MEDIA
       </Link>
     </div>
   );

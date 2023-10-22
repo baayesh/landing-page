@@ -5,4 +5,77 @@
     position: fixed;
     left: 0;
     top: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
+
+.content {
+    margin-left: 30%; 
+    padding: 20px; 
+  }
+
+     .top-row {
+      display: flex;
+      background-color: white;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .top-frame {
+      flex: 1;
+    }
+
+    .bottom-row {
+      display: flex;
+      flex-wrap: nowrap; 
+      overflow: hidden; 
+    }
+
+    .pane {
+      flex: 1; /* Each pane takes up equal width */
+      background-color: white; /* Gray background color for the panes */
+      padding: 20px;
+      border: 1px solid #777;
+      border-radius: 10px;
+      margin-right: 5px;
+
+    }
+
+    .body {
+      margin: 0;
+      overflow: hidden; 
+    }
+
+    .topimg{
+        width: 20%;
+    }
+
+    .bottomimg{
+        width: 70px;
+        margin-left: 30px;
+        height: auto;
+        
+    }
+
+    .sidecontent{
+        color: aliceblue;
+        padding-left: 40px;
+        padding-right: 40px;
+
+    }
+/* QR Codes */
+.row {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .column {
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+  }

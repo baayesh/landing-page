@@ -16,7 +16,7 @@
   background-color: #61dafb;
   font-size: 30px;
   padding-top: 30px;
-  margin-left: -90px;
+  margin-left: -170px;
   padding-bottom: 30px;
   padding-left: 20px;
   padding-right: 20px;
@@ -60,6 +60,17 @@
 
 #button-3:hover:after{
   left: 50%;
+}
+
+.tag{
+  color: aliceblue;
+  font-size: 70px;
+}
+.tagwrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 500px;
 }
 
 
