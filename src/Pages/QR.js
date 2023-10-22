@@ -55,6 +55,7 @@ function QR() {
             <img src={rImage} alt="" className="bottomimg" />
           </div>
         </div>
+        <h2 className="tit">Look at our SOCIAL MEDIA</h2>
         <div class="row">
           <div class="column">
             <img src={qrImage} alt="" />
@@ -65,10 +66,26 @@ function QR() {
         </div>
         <div class="row">
           <div class="column">
+            <h3 className="fb">Facebook</h3>
+          </div>
+          <div class="column">
+            <h3 className="insta">Instagram</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
             <img src={qrImage} alt="" />
           </div>
           <div class="column">
             <img src={qrImage} alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <h3 className="fb">Youtube</h3>
+          </div>
+          <div class="column">
+            <h3 className="insta">LinkedIn</h3>
           </div>
         </div>
       </div>
