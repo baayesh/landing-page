@@ -1,4 +1,5 @@
 import Video from "./Assets/Video.mp4";
+import Video1 from "./Assets/Video1.mp4";
 import React from "react";
 import "./App.css";
 
