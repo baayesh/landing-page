@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Congratz from "./Pages/Congratz";
+import QR from "./Pages/QR";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "Congratz",
     element: <Congratz/>,
+  },
+  {
+    path: "QR",
+    element: <QR/>,
   },
 ]);
 
