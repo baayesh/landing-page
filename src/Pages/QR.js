@@ -2,6 +2,16 @@ import React from "react";
 import "./QR.css";
 import rImage from "../Assets/R.png";
 import qrImage from "../Assets/qr.png";
+import YMCA from "../Assets/Partners/Partners/Batticaloa/YMCA Logo.jpg";
+import DFCDF from "../Assets/Partners/Partners/Hambantota/DFCDF Logo.jpg";
+import DCHam from "../Assets/Partners/Partners/Hambantota/LOGO DC Ham.jpg";
+import WDF from "../Assets/Partners/Partners/Hambantota/Logo WDF.jpg";
+import BAY from "../Assets/Partners/Partners/Kilinochchi/BAY.Org.jpeg";
+import MSWF from "../Assets/Partners/Partners/Kilinochchi/MSWF.jpg";
+import NGOC from "../Assets/Partners/Partners/Kilinochchi/NGO Consortium.png";
+import SLCDF from "../Assets/SLCDF.png"
+import DWC from "../Assets/DWC.png";
+import Canada from "../Assets/Canada.png";
 
 function QR() {
   return (
@@ -16,43 +26,37 @@ function QR() {
       <div class="content">
         <div class="top-row">
           <div class="frame">
-            <img src={rImage} alt="" className="topimg" />
+            <img src={SLCDF} alt="" className="topimg" />
           </div>
           <div class="frame">
-            <img src={rImage} alt="" className="topimg" />
+            <img src={DWC} alt="" className="topimg" />
           </div>
           <div class="frame">
-            <img src={rImage} alt="" className="topimg" />
+            <img src={Canada} alt="" className="topimg" />
           </div>
         </div>
 
         <div class="bottom-row">
           <div class="pane">
-            <img src={rImage} alt="" className="bottomimg" />
+            <img src={YMCA} alt="" className="bottomimg" />
           </div>
           <div class="pane">
-            <img src={rImage} alt="" className="bottomimg" />
+            <img src={DFCDF} alt="" className="bottomimg" />
           </div>
           <div class="pane">
-            <img src={rImage} alt="" className="bottomimg" />
+            <img src={DCHam} alt="" className="bottomimg" />
           </div>
           <div class="pane">
-            <img src={rImage} alt="" className="bottomimg" />
+            <img src={WDF} alt="" className="bottomimg" />
           </div>
           <div class="pane">
-            <img src={rImage} alt="" className="bottomimg" />
+            <img src={BAY} alt="" className="bottomimg" />
           </div>
           <div class="pane">
-            <img src={rImage} alt="" className="bottomimg" />
+            <img src={MSWF} alt="" className="bottomimg" />
           </div>
           <div class="pane">
-            <img src={rImage} alt="" className="bottomimg" />
-          </div>
-          <div class="pane">
-            <img src={rImage} alt="" className="bottomimg" />
-          </div>
-          <div class="pane">
-            <img src={rImage} alt="" className="bottomimg" />
+            <img src={NGOC} alt="" className="bottomimg" />
           </div>
         </div>
         <h2 className="tit">Look at our SOCIAL MEDIA</h2>

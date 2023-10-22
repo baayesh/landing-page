@@ -37,10 +37,13 @@
     .pane {
       flex: 1; /* Each pane takes up equal width */
       background-color: white; /* Gray background color for the panes */
-      padding: 20px;
-      border: 1px solid #777;
+      padding-top: 20px;
+      padding-bottom: 20px;
       border-radius: 10px;
       margin-right: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
     }
 

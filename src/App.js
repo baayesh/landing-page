@@ -13,7 +13,7 @@ function App() {
       <div className="tagwrap">
         <h1 className="tag">Break the Silence - End the Violence</h1>
       </div>
-      <Link to="/Congratz" class="button" id="button-3">
+      <Link to="/congratz" class="button" id="button-3">
         LAUNCH SOCIAL MEDIA
       </Link>
     </div>
