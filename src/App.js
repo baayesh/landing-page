@@ -1,5 +1,4 @@
 import Video from "./Assets/Video.mp4";
-
 import React from "react";
 import "./App.css";
 import { Link } from "react-router-dom";
@@ -11,7 +10,10 @@ function App() {
       <video className="Vid" autoPlay muted loop>
         <source src={Video} type="video/mp4" />
       </video>
-      <Link to="/Congratz" class="button" id="button-3"> Click Here</Link>
+      <Link to="/Congratz" class="button" id="button-3">
+        {" "}
+        Click Here
+      </Link>
     </div>
   );
 }
