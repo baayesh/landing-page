@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import "./QR.css";
 
 function QR() {
   return (
-    <div>QR</div>
+    <div>
+        <div className="bluePane">
+            qr
+        </div>
+    </div>
   )
 }
 
