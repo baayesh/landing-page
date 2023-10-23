@@ -23,42 +23,11 @@ function QR() {
         </h2>
       </div>
       <img src={Back} alt="" className="backimg" />
+      {/* Replace Contetnt */}
       <div class="content">
-        <div class="top-row">
-          <div class="frame">
-            <img src={SLCDF} alt="" className="topimg" />
-          </div>
-          <div class="frame">
-            <img src={DWC} alt="" className="topimg" />
-          </div>
-          <div class="frame">
-            <img src={Canada} alt="" className="topimg" />
-          </div>
-        </div>
+   
 
-        <div class="bottom-row">
-          <div class="pane">
-            <img src={YMCA} alt="" className="bottomimg" />
-          </div>
-          <div class="pane">
-            <img src={DFCDF} alt="" className="bottomimg" />
-          </div>
-          <div class="pane">
-            <img src={DCHam} alt="" className="bottomimg" />
-          </div>
-          <div class="pane">
-            <img src={WDF} alt="" className="bottomimg" />
-          </div>
-          <div class="pane">
-            <img src={BAY} alt="" className="bottomimg" />
-          </div>
-          <div class="pane">
-            <img src={MSWF} alt="" className="bottomimg" />
-          </div>
-          <div class="pane">
-            <img src={NGOC} alt="" className="bottomimg" />
-          </div>
-        </div>
+
         <h2 className="tit">Look at our SOCIAL MEDIA</h2>
         <div class="row">
           <div class="column">
