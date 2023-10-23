@@ -1,6 +1,5 @@
 import React from "react";
 import "./QR.css";
-import rImage from "../Assets/R.png";
 import qrImage from "../Assets/qr.png";
 import YMCA from "../Assets/Partners/Partners/Batticaloa/YMCA Logo.jpg";
 import DFCDF from "../Assets/Partners/Partners/Hambantota/DFCDF Logo.jpg";
@@ -9,20 +8,21 @@ import WDF from "../Assets/Partners/Partners/Hambantota/Logo WDF.jpg";
 import BAY from "../Assets/Partners/Partners/Kilinochchi/BAY.Org.jpeg";
 import MSWF from "../Assets/Partners/Partners/Kilinochchi/MSWF.jpg";
 import NGOC from "../Assets/Partners/Partners/Kilinochchi/NGO Consortium.png";
-import SLCDF from "../Assets/SLCDF.png"
+import SLCDF from "../Assets/SLCDF.png";
 import DWC from "../Assets/DWC.png";
 import Canada from "../Assets/Canada.png";
+import Back from "../Assets/Coorperate Print.png";
 
 function QR() {
   return (
     <div>
       <div className="bluePane">
         <h2 className="sidecontent">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco
+          WE ARE LIVE NOW! <br />
+          <h2 className="reachus">REACH US; </h2>
         </h2>
       </div>
+      <img src={Back} alt="" className="backimg" />
       <div class="content">
         <div class="top-row">
           <div class="frame">
