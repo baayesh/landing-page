@@ -1,5 +1,6 @@
 import React from "react";
 import Video1 from "../Assets/Video1.mp4";
+import loadingbar from "../Assets/"
 import "./Congratz.css"
 
 

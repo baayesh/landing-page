@@ -18,8 +18,7 @@ function QR() {
     <div>
       <div className="bluePane">
         <h2 className="sidecontent">
-          WE ARE LIVE NOW! <br />
-          <h2 className="reachus">REACH US; </h2>
+          WE ARE LIVE NOW! 
         </h2>
       </div>
       <img src={Back} alt="" className="backimg" />
@@ -28,7 +27,7 @@ function QR() {
    
 
 
-        <h2 className="tit">Look at our SOCIAL MEDIA</h2>
+        <h2 className="tit">FIND US ON</h2>
         <div class="row">
           <div class="column">
             <img src={qrImage} alt="" />

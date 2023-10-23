@@ -1,5 +1,5 @@
 .bluePane{
-    background-color:#343a40;
+    background-color:#200040;
     width: 30%;
     height: 100vh;
     position: fixed;
@@ -87,7 +87,8 @@
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   }
   .reachus{
