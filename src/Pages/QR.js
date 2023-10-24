@@ -9,7 +9,7 @@ import tiktok from "../Assets/QR/tiktok.png";
 import ltfb from "../Assets/QR/Lower Thirds/fb.png";
 import ltin from "../Assets/QR/Lower Thirds/In.png";
 import ltyt from "../Assets/QR/Lower Thirds/yt.png";
-import lttik from "../Assets/QR/Lower Thirds/tiktok.png"
+import lttik from "../Assets/QR/Lower Thirds/tiktok.png";
 
 function QR() {
   return (

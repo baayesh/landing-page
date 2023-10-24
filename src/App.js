@@ -18,7 +18,7 @@ function App() {
     setTimeout(() => {
       
       navigate("/qr");
-    }, 11000);
+    }, 10500);
   };
   return (
     <div className="App">
