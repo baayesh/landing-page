@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { useNavigate} from "react-router-dom";
 import Congratz from "./Pages/Congratz";
 import qr from "./Pages/QR";
+import freez from "./Assets/Freez.mp4"
 
 function App() {
   const navigate = useNavigate();
@@ -22,12 +23,11 @@ function App() {
   return (
     <div className="App">
       <video className="Vid" autoPlay muted loop>
-        <source src={Video} type="video/mp4" />
+        <source src={freez} type="video/mp4" />
       </video>
       <div className="tagwrap">
-        <h1 className="tag">Break the Silence - End the Violence</h1>
       </div>
-      <button onClick={handleButtonClick} className="button" id="button-3">Launch the Social Media</button>
+      <button onClick={handleButtonClick} className="button" id="button-3">Launch Social Media</button>
     </div>
   );
 }
