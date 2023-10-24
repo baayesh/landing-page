@@ -97,3 +97,25 @@
 .App-link {
   color: #61dafb;
 }
+
+@media (max-width: 1024px) {
+  #button-3 {
+    background-color: #61dafb;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px 20px; /* Adjust padding for spacing */
+    border: 2px solid #61dafb; /* Use border instead of background color */
+    color: #34495e;
+    text-decoration: none;
+    border-radius: 20px;
+    position: fixed;
+    bottom: -50px; /* Adjust the margin from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    z-index: 1; /* Ensure it's on top of the video */
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+}
+
