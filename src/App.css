@@ -98,7 +98,7 @@
   color: #61dafb;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   #button-3 {
     background-color: #61dafb;
     font-size: 30px;
