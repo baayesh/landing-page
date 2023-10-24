@@ -98,10 +98,11 @@
   color: #61dafb;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1240px) {
   #button-3 {
-    bottom: -70px;
-    left: 65%; /* Center horizontally */
+    top: 30px;
+    left: 50%;
+    padding-bottom: 60px;
   }
 }
 
